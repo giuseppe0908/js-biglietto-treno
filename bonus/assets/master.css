@@ -6,9 +6,11 @@ h1{
   height: 200px;
   width: 600px;
   border: 1px solid black;
-  margin-left: 272px;
   margin-top: 40px;
-  position: relative;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 nav{
   border: 1px solid black;
@@ -57,28 +59,30 @@ nav p{
   text-align: center;
   margin-top: -65px;
 }
+
 .table{
   font-size: 13px;
   margin-left: 107px;
 }
+
 th , td{
     border: 1px solid black;
     padding: 0 10px;
 }
+
 #modifiche{
   font-size: 13px;
   margin-left: 10px;
   background:#FFFF00;
   width: 67px;
 }
-#position{
-  position: absolute;
-  right: 95px;
-  bottom: 0;
-}
+
 #prezzo_biglietto{
   position: absolute;
   right: 50px;
   bottom: 0;
 
+}
+.citta{
+  text-transform: uppercase;
 }
