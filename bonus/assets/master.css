@@ -1,0 +1,84 @@
+
+h1{
+  text-align: center;
+}
+.biglietto{
+  height: 200px;
+  width: 600px;
+  border: 1px solid black;
+  margin-left: 272px;
+  margin-top: 40px;
+  position: relative;
+}
+nav{
+  border: 1px solid black;
+  position: relative;
+  height: 45px;
+}
+.logo{
+  margin-left: 5px;
+  margin-top: 8px;
+}
+.logo > img{
+  height: 25px;
+}
+.logo h3{
+  display:inline-block;
+  vertical-align: 7px;
+  margin: 0;
+}
+nav p{
+  text-align:center;
+  width: 174px;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 35%;
+
+}
+#text-right{
+  text-align: left;
+  position: absolute;
+  right: 15px;
+  border: 1px solid black;
+  height: 25px;
+  line-height: 25px;
+  width: 115px;
+  font-size: 11px;
+  padding-left: 5px;
+}
+#qr-code{
+  margin-top: 30px;
+  height: 60px;
+  margin-left: 10px;
+}
+#convalida{
+  font-size: 11px;
+  text-align: center;
+  margin-top: -65px;
+}
+.table{
+  font-size: 13px;
+  margin-left: 107px;
+}
+th , td{
+    border: 1px solid black;
+    padding: 0 10px;
+}
+#modifiche{
+  font-size: 13px;
+  margin-left: 10px;
+  background:#FFFF00;
+  width: 67px;
+}
+#position{
+  position: absolute;
+  right: 95px;
+  bottom: 0;
+}
+#prezzo_biglietto{
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+
+}
